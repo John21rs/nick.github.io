@@ -1,0 +1,315 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    height: auto;
+}
+
+header nav {
+    height: 100%;
+}
+
+header nav ul {
+    height: 100%;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.9;
+    
+    height: 100%;
+    width: auto;
+    flex: 1 1 auto;
+}
+
+.nav-item:first-child {
+    background-image: url('./images/new_pascal.png');
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 105%;
+    background-color: grey;
+}
+
+.nav-item:nth-child(2) {
+    background-image: url('./images/new_image_two.png');
+    background-position: 50% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 105%;
+    background-color: grey;
+}
+
+.nav-item:nth-child(3) {
+    background-image: url('./images/new_image_three.png');
+    background-position: 50% 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 105%;
+    background-color: grey;
+}
+
+.nav-item:nth-child(4) {
+    background-image: url('./images/new_image_four.png');
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 105%;
+    background-color: grey;
+}
+
+.nav-item:last-child {
+    background-image: url('./images/new_image_five.png');
+    background-position: 50% 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 105%;
+    background-color: grey;
+}
+
+.nav-item:hover {
+    background-size: 100%;
+    filter: brightness(135%);
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nav-link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.TexoContenido {
+    
+    text-align: center;
+    font-family: "Irish Grover", system-ui;
+    font-style: normal;
+    padding: 0%;
+}
+
+.link-section {
+
+    background-color: antiquewhite;
+    border: solid 5px #000;
+    margin: 100px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+}
+
+footer {
+    background-color: #aa9380;
+    height: 100px;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-weight: bold;
+}
+
+
+.img-contenido {
+    border: solid 10px #000;
+    width: 100%; /* Ajusta a largura para ocupar todo o espaço da div pai */
+    max-width: 100%;
+    max-width: 700px; /* Define uma largura máxima */
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+
+}
+/*
+.img-contenido {
+    border: solid 1px #000;
+    width: 40%;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}*/
+
+
+#contenidoTodo {
+    
+    background-image: url('./images/nicks_background_image_contact.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+
+.contact-image {
+    max-width: 100%; /* Define uma largura máxima */
+    width: 40%;
+    height: auto; /* Mantém a altura automática para se ajustar ao conteúdo */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px; /* Espaçamento ao redor da div */
+
+    
+    max-width: 100%;
+}
+
+.RedSoc {
+    width: auto;
+    max-width: 100%; /* Ajuste automático da largura */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px; /* Espaçamento ao redor da div */
+    margin-bottom: 30px;
+}
+
+.logoRedSoc {
+    
+    width: 80px; /* Ajuste automático da largura */
+    position: relative;
+    top: auto;
+    left: -10px;
+    margin-left: -30px;
+}
+
+#AligneLogo{
+    position: relative;
+    top: 10px;
+}
+
+.Texolink{
+
+    width: auto;
+    max-width: 100%;
+    font-size: 1.25rem; /* Ajusta o tamanho da fonte */
+    font-family: "Irish Grover", system-ui;
+    text-align: center;
+    font-style: normal;
+    position: relative;
+    top: 10px;
+   
+}
+
+
+.logoLink {
+    font-size: 1.25rem; /* Ajuste o tamanho da fonte */
+    align-items: center;
+    margin-bottom: 1px; /* Espaçamento entre os links */
+}
+
+.logoLink a {
+    text-decoration: none; /* Remove sublinhado do link */
+    color: #000; /* Cor do texto do link */
+    margin: 5px; /* Espaçamento à esquerda do texto do link */
+    font-size: 50px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+.logoLink a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+
+/* Media queries para telas menores */
+@media (max-width: 768px) {
+    .nav-item {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .nav-link {
+        
+        font-size: 1rem;
+    }
+
+    .link-section {
+        margin: 20px;
+    }
+
+    .RedSoc {
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .logoRedSoc {
+        width: 50px;
+    }
+
+    .Texolink {
+        font-size: 1rem;
+    }
+
+    .logoLink a {
+        font-size: 1rem;
+    }
+
+    .img-contenido,
+    .contact-image {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-link {
+        font-size: 0.875rem;
+    }
+
+
+    .Texolink {
+        font-size: 100px;
+        width: auto;
+        position: relative;
+        top: -5px;
+        
+    }
+
+    .logoRedSoc{
+        margin-bottom: 1px;
+        width: 80px;
+    }
+
+    .logoLink a {
+        display: flex;
+        align-items: center; /* Alinha o texto com o logo */
+        font-size: 0.875rem;
+        margin-top: 0%; /* Ajuste a margem à esquerda para aproximar do logo */
+    }
+
+   #AligneLogo{
+    background: antiquewhite;
+    }
+
+    .logoRedSoc {
+        margin-bottom: 0%; /* Ajuste o espaçamento à direita do logo */
+        
+    }
+
+    .img-contenido,
+    .contact-image {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+.img_port {
+    margin-right: 2000px; /* Ajuste o valor conforme necessário */
+    flex: auto;
+    align-items: center;
+}
+
+.custom-card {
+    background-color: #000;
+    color: #fff;
+}
+

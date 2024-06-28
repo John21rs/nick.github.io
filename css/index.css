@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn-product {
+  z-index: 1000;
+  text-decoration: none;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.carousel-image {
+  background-image: url("../images/carousel/image.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  z-index: 0;
+  opacity: 0.5;
+  filter: blur(3px);
+}
+
+#carouselExampleIndicators {
+  max-width: 500px;
+  max-height: 600px;
+  position: relative;
+  left: 40px; /* Ajuste conforme necessário */
+  z-index: 1; /* Garante que o carrossel fique acima da imagem de fundo */
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.rounded-button {
+  background-color: #a57f6e;
+  color: #000;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  padding: 10px 80px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.rounded-button:hover {
+  background-color: #8a6657;
+}
+
+.home {
+  background-color: #f1ede5;
+}
+
+.card-container {
+  margin-bottom: 20px;
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+}

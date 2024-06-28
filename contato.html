@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="bg-dark text-white">
+      <nav>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="links.html">Links</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="produtos.html">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main
+      class="d-flex justify-content-center align-items-center py-3 bg-light"
+    >
+      <section
+        class="contact-section shadow-lg p-3 mb-5 bg-white rounded p-4 d-flex flex-wrap"
+      >
+        <div class="contact-image flex-fill">
+          <img
+            src="./images/contato/2.png"
+            alt="Profile Picture"
+            class="img-fluid"
+          />
+        </div>
+        <div class="contact-form flex-fill">
+          <h2>Envie-nos uma mensagem e entraremos em contato em breve.</h2>
+
+          <form
+            target="_blank"
+            action="https://formsubmit.co/27c71a8f742a733f35a0d866c0b00d68 "
+            method="POST"
+          >
+            <div class="form-group">
+              <label for="name">Nome:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="tel">Telefone:</label>
+              <input
+                type="tel"
+                id="tel"
+                name="tel"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">e-mail:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Mensagem:</label>
+              <textarea
+                id="message"
+                name="message"
+                class="form-control"
+                rows="4"
+                columns="30"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark">Enviar</button>
+            <input type="hidden" name="_captcha" value="false" />
+            <!--Mudar quado colocar em produção-->
+            <input
+              type="hidden"
+              name="_next"
+              value="http://127.0.0.1:5500/contato.html"
+            />
+            <!--Mudar quado colocar em produção-->
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="text-center py-3">
+      <p>Conheça nossas redes sociais.</p>
+      <div class="social-media d-flex justify-content-center">
+        <a href="https://www.facebook.com/nicknevesart/" class="mx-2"
+          ><img src="./images/facebook.png" alt="Facebook" class="img-fluid"
+        /></a>
+        <a href="https://www.instagram.com/nicknevesart/" class="mx-2"
+          ><img src="./images/instagram.png" alt="Instagram" class="img-fluid"
+        /></a>
+        <a href="https://www.youtube.com/c/nicknevesart" class="mx-2"
+          ><img src="./images/youtube.png" alt="YouTube" class="img-fluid"
+        /></a>
+        <a href="https://www.tiktok.com/@nicknevesart" class="mx-2"
+          ><img src="./images/tiktok.png" alt="Tiktok" class="img-fluid"
+        /></a>
+        <a href="https://br.pinterest.com/nicknevesart/_created/" class="mx-2"
+          ><img src="./images/pinterest.png" alt="Pinterest" class="img-fluid"
+        /></a>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
