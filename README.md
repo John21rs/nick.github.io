@@ -18,7 +18,7 @@ IDE - Vscode
 - _João Victor Rodrigues Santos_ - [Desenvolvedor](https://github.com/John21rs)
 - _Davi Negreiros Carneiro Rangel_ - [Desenvolvedor](https://github.com/DaviRangel01)
 - _Miguel Angel Morán_ - [Desenvolvedor](https://github.com/Angel-85)
-- _sPeterson Paganelli_ - [Desenvolvedor](https://github.com/Peterson-Paganelli)
+- _Peterson Paganelli_ - [Desenvolvedor](https://github.com/Peterson-Paganelli)
 
 #### 🚀 Deploy
 
